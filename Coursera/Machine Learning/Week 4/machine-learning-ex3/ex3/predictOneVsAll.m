@@ -30,7 +30,21 @@ X = [ones(m, 1) X];
 %       for each row.
 %       
 
+% disp('all_theta:')
+% disp(size(all_theta))
+% disp('X:')
+% disp(size(X))
 
+
+y = X * all_theta';
+% disp(y(1090:1100, :))
+
+[m, p] = max(y, [], 2);
+% disp(p(1090:1100,:))
+% disp(m(1090:1100,:))
+
+% disp('p:')
+% disp(size(p))
 
 
 
