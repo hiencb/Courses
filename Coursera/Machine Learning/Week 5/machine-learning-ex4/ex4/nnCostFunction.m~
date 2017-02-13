@@ -84,10 +84,6 @@ for i = 1:m
     delta1 = delta1 + d2x' * a_1;
     
     a_2 = x2(i, :);
-    
-    disp(size(delta2));
-    disp(size(d3));
-    disp(size(a_2));
     delta2 = delta2 + d3' * a_2;
 end
 
@@ -100,17 +96,8 @@ cost = sum(totalCost) / m;
 disp(cost);
 J = cost + (lambda / (2 * m)) * (sum1 + sum2);
 
-
-
-Theta1x = Theta1;
-Theta1x(:,1) = zeros(size(Theta1,1),1);
-Theta2x = Theta2;
-Theta2x(:,1) = zeros(size(Theta2,1),1);
-
-Theta1_grad = delta1 / m + Theta1x * (lambda/m);
-Theta2_grad = delta2 / m + Theta2x * (lambda/m);
-grad = [Theta1_grad(:); Theta2_grad(:)];
-
+Theta1_grad = delta1 / m;
+Theta2_grad = delta2 / m;
 % Part 2: Implement the backpropagation algorithm to compute the gradients
 %         Theta1_grad and Theta2_grad. You should return the partial derivatives of
 %         the cost function with respect to Theta1 and Theta2 in Theta1_grad and
