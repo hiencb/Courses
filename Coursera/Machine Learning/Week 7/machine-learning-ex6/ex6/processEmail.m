@@ -8,6 +8,7 @@ function word_indices = processEmail(email_contents)
 
 % Load Vocabulary
 vocabList = getVocabList();
+vocabCount = size(vocabList);
 
 % Init return value
 word_indices = [];
@@ -64,10 +65,16 @@ while ~isempty(email_contents)
     % Remove any non alphanumeric characters
     str = regexprep(str, '[^a-zA-Z0-9]', '');
 
+    disp(str);
     % Stem the word 
     % (the porterStemmer sometimes has issues, so we use a try catch block)
-    try str = porterStemmer(strtrim(str)); 
-    catch str = ''; continue;
+    try
+        str = porterStemmer(strtrim(str)); 
+        disp(str);
+        disp(length(str));
+    catch
+        disp('error');
+        str = ''; continue;
     end;
 
     % Skip the word if it is too short
@@ -96,7 +103,11 @@ while ~isempty(email_contents)
     % Note: You can use strcmp(str1, str2) to compare two strings (str1 and
     %       str2). It will return 1 only if the two strings are equivalent.
     %
-
+    for i = 1:vocabCount
+       if strcmp(str, vocabList{i})
+           word_indices = [word_indices; i];
+       end
+    end
 
 
 

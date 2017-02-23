@@ -47,7 +47,11 @@ x = zeros(n, 1);
 %              x = [ 0 0 0 0 1 0 0 0 ... 0 0 0 0 1 ... 0 0 0 1 0 ..];
 %
 %
-
+indexCount = size(word_indices);
+for i = 1:indexCount
+    index = word_indices(i, 1);
+    x(index, 1) = 1;
+end
 
 
 
