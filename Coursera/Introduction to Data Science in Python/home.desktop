@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Introduction to Data Science in Pytho...
+Exec=/opt/google/chrome/chrome --profile-directory=Default --app-id=hpanmcpnfnjpceffbeefmcehfmkopamm
+Icon=chrome-hpanmcpnfnjpceffbeefmcehfmkopamm-Default
+StartupWMClass=crx_hpanmcpnfnjpceffbeefmcehfmkopamm
+Name[en_US]=home
