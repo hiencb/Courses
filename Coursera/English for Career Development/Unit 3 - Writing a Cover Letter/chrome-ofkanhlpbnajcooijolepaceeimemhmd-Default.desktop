@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Inquiry Letters l CareerOneStop
+Exec=/opt/google/chrome/chrome --profile-directory=Default --app-id=ofkanhlpbnajcooijolepaceeimemhmd
+Icon=chrome-ofkanhlpbnajcooijolepaceeimemhmd-Default
+StartupWMClass=crx_ofkanhlpbnajcooijolepaceeimemhmd

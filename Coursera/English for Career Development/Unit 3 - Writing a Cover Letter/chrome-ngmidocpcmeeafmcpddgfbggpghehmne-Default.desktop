@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Cover Letters Sample l CareerOneStop
+Exec=/opt/google/chrome/chrome --profile-directory=Default --app-id=ngmidocpcmeeafmcpddgfbggpghehmne
+Icon=chrome-ngmidocpcmeeafmcpddgfbggpghehmne-Default
+StartupWMClass=crx_ngmidocpcmeeafmcpddgfbggpghehmne

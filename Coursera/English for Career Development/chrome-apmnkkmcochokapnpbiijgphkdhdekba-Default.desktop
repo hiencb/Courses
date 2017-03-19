@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Informational Interviews l CareerOneStop
+Exec=/opt/google/chrome/chrome --profile-directory=Default --app-id=apmnkkmcochokapnpbiijgphkdhdekba
+Icon=chrome-apmnkkmcochokapnpbiijgphkdhdekba-Default
+StartupWMClass=crx_apmnkkmcochokapnpbiijgphkdhdekba

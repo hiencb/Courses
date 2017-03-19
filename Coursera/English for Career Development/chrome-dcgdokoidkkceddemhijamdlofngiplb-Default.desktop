@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Maintain Your Network l CareerOneStop
+Exec=/opt/google/chrome/chrome --profile-directory=Default --app-id=dcgdokoidkkceddemhijamdlofngiplb
+Icon=chrome-dcgdokoidkkceddemhijamdlofngiplb-Default
+StartupWMClass=crx_dcgdokoidkkceddemhijamdlofngiplb
