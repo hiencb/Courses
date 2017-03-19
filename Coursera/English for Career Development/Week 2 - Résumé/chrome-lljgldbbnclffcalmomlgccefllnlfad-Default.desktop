@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Select the best format | Resume Guide
+Exec=/opt/google/chrome/chrome --profile-directory=Default --app-id=lljgldbbnclffcalmomlgccefllnlfad
+Icon=chrome-lljgldbbnclffcalmomlgccefllnlfad-Default
+StartupWMClass=crx_lljgldbbnclffcalmomlgccefllnlfad
