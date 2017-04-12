@@ -1,0 +1,2 @@
+1. Reimplement Logistic Regression (Logistic Regression)
+2. Plot 3D (Activation Functions)
