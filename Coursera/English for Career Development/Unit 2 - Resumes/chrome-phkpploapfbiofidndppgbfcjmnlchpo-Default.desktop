@@ -1,9 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Chronological vs. functional resume
-Exec=/opt/google/chrome/chrome --profile-directory=Default --app-id=phkpploapfbiofidndppgbfcjmnlchpo
-Icon=chrome-phkpploapfbiofidndppgbfcjmnlchpo-Default
-StartupWMClass=crx_phkpploapfbiofidndppgbfcjmnlchpo
