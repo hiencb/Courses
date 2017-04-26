@@ -1,9 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=More sample resumes | Resume Guide
-Exec=/opt/google/chrome/chrome --profile-directory=Default --app-id=amgcocjkdkdbcnidcobgncochklhhoga
-Icon=chrome-amgcocjkdkdbcnidcobgncochklhhoga-Default
-StartupWMClass=crx_amgcocjkdkdbcnidcobgncochklhhoga
